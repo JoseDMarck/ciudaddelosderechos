@@ -1,0 +1,1824 @@
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1920px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:2200px) {
+
+
+}/* 2200 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1690px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1690px) {
+
+.Seccion_1 > .Logo{
+	width: 330px;
+}
+
+.Seccion_1 > .menu{
+	width: 1000px;
+	font-size: 22px;
+}
+
+
+/* BLOQUE TEXTO FIRMA */
+.SubcontenedorFirma > .texto{
+	width: 80%;
+}
+
+.SubcontenedorFirma > .firma{
+	width: 220px;
+}
+
+.SubcontenedorFirma > .firma > .nombre{
+	font-size: 40px;
+}
+
+
+.Seccion_2 >  .BloqueDerechos{
+	max-width: 1500px;
+}
+
+.Seccion_2 >  .BloquesDerechosSecciones{
+	max-width: 1400px;
+}
+.Seccion_2 >  .BloquesDerechosSecciones > .Bloques{
+	width: 18%;
+}
+
+
+.imagenTituloSecciones{
+	max-width: 1000px;
+	 
+}
+
+.Bloque_post {
+    max-width: 1000px;
+}
+
+.Bloque_post > .imagen {
+    width: 100%;
+    height: 420px;
+}
+
+} /* 1690 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1480px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1480px) {
+
+.Seccion_1 > .Logo{
+	width: 280px;
+}
+
+.Seccion_1 > .menu{
+	width: 1000px;
+	font-size: 20px;
+}
+
+.Seccion_1 > .textoSumate{
+	width: 500px;
+	font-size: 40px;
+}
+
+.Seccion_1{
+	height: 700px;
+}
+
+/* BLOQUE TEXTO FIRMA */
+.SubcontenedorFirma > .texto{
+	width: 80%;
+	font-size: 35px;
+	line-height: 35px;
+	padding-left: 60px;
+}
+
+.textoComillas::before{
+  content:'';
+  background: url('../images/inicio/Comillas-1.png');  
+  position:absolute;
+  width: 60px;
+  height: 40px;  
+  background-size:60px 40px;
+  z-index:100000;  
+  left: 60px;
+   top: 60px;
+}
+
+.textoComillas::after{
+  content:'';
+  background: url('../images/inicio/Comillas-2.png');  
+  position:absolute;
+  width: 60px;
+  height: 40px;  
+  background-size:60px 40px;   
+}
+
+
+.textoComillas_sec::before{
+  content:'';
+  background: url('../images/inicio/Comillas-1.png');
+  background-repeat: no-repeat;  
+  position:absolute;
+  width: 60px;
+  height: 40px;  
+  background-size:60px 40px;  
+  left: -60px;
+   top: -17px;
+}
+
+.textoComillas_sec::after{
+  content:'';
+  background: url('../images/inicio/Comillas-2.png'); 
+  background-repeat: no-repeat; 
+  position:absolute;
+  width: 60px;
+  height: 40px;  
+  background-size:60px 40px;
+  z-index:9999; 
+  margin-left: 14px;   
+}
+
+
+.texto_normal{
+	font-size: 35px  !important;
+	line-height: 35px  !important;
+}
+ 
+.Seccion_2 > .Subcontenedor > .Descripcion{
+ 	font-size: 35px;
+ 	line-height: 35px;
+ }
+
+
+.Seccion_2 >  .BloqueDerechos{
+	width: 1200px;
+}
+
+
+
+.Seccion_3 > .contenedor_valores{
+	max-width: 1200px;
+}
+
+
+.BloquesDerechosSecciones {
+    max-width: 1200px;
+}
+
+
+
+.TituloSeccionImg_Ejes{
+	width: 431px;
+	height: 42px;
+	background: url("../images/inicio/Ejes_rectores.png");
+	background-size: 431px 42px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+.TituloSeccionImg_Proyecto{
+	width: 431px;
+	height: 42px;
+	background: url("../images/inicio/proyecto.png");
+	background-size: 431px 42px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+ 
+.contenedor_post {
+	width: 80%;
+
+}
+
+.contenedor_post > .imagen {
+    width: 100%;
+    height: auto;
+}
+
+.contenedorNoticia {
+	width: 780px;
+}
+
+.contenedorNoticia > .imagen {
+    width: 100%;
+    height: 400px;
+}
+
+
+.contenedorNoticia > .textos > .titulo {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.contenedorNoticia > .textos > .detalles {
+	font-size: 16px;
+    line-height: 16px;
+}
+
+.contenedorNoticia > .textos > .descripcion {
+	font-size: 16px;
+    line-height: 16px;
+}
+
+
+.bx-wrapper .bx-prev {
+	left: 15%;	 
+}
+
+.bx-wrapper .bx-next {
+	right: 15%;
+}
+
+.contenedorNoticia{
+	width: 600px;
+
+}
+
+
+.contenedorNoticia > .imagen{
+	width: 100%;
+	height: auto;
+
+}
+
+
+
+}/* 14480 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1366px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1366px) {
+
+.Seccion_1 > .Logo{
+	width: 250px;
+}
+
+.Seccion_1 > .menu{
+	width: 800px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+
+.Secciones_portadas{
+	height: 800px !important;
+	margin-bottom: 120px !important;
+}
+
+
+
+
+/* BLOQUE TEXTO FIRMA */
+.SubcontenedorFirma > .texto{
+	width: 78%;
+	font-size: 24px;
+    line-height: 24px;
+}
+
+
+.texto_normal{
+	font-size: 24px   !important;
+	line-height: 24px  !important;
+}
+
+
+.SubcontenedorFirma > .firma{
+	width: 180px;
+}
+
+.SubcontenedorFirma > .firma > .nombre{
+	font-size: 30px;
+}
+
+
+.Seccion_2 > .Subcontenedor > .Descripcion{
+ 	font-size: 24px;
+ 	line-height: 24px;
+ }
+
+
+.Seccion_2 >  .BloqueDerechos{
+	width: 1000px;
+}
+
+
+.Seccion_3 > .contenedor_valores{
+	max-width: 1000px;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueB > .Descripcion{
+	font-size: 22px;
+ 	line-height: 22px;
+}
+
+.DescripcionSeccion4{
+	font-size: 24px;
+ 	line-height: 24px;
+}
+
+
+.LeerMasBtn {
+    max-width: 240px;
+}
+
+.titulo_seccion {
+    font-size: 38px !important;
+}
+
+
+.Seccion_2 > .BloquesDerechosSecciones {
+    max-width: 1000px;
+}
+
+
+.Seccion_3_cd_derechos{
+	font-size: 30px;
+	line-height: 30px;
+}
+
+
+
+
+.layerOscuro > .contenedor{
+	width: 1000px;
+}
+
+
+
+.TituloSeccionImg_Ejes{
+	width: 342px;
+	height: 33px;
+	background: url("../images/inicio/Ejes_rectores.png");
+	background-size: 342px 33px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.TituloSeccionImg_Proyecto{
+	width: 342px;
+	height: 33px;
+	background: url("../images/inicio/proyecto.png");
+	background-size: 342px 33px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+
+.TituloSeccionImg_Etapas{
+	width: 522px;
+	height: 33px;
+	background: url("../images/inicio/Etapas.png");
+	background-size: 522px 33px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+.TituloSeccionImg_Noticias{
+	width: 412px;
+	height: 40px;
+	background: url("../images/inicio/ultimasNoticias.png");
+	background-size: 412px 40px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques{
+	font-size: 33px;
+	line-height: 33px;
+}
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques > .numero{
+	width: 60px;
+
+}
+
+
+.imagenTituloSecciones{
+	max-width: 800px;
+	 
+}
+
+
+.DescripcionBloquesTxt{
+	width: 85%;
+	font-size: 22px;
+    line-height: 22px;
+}
+
+
+.Bloque_post {
+    max-width: 800px;
+}
+
+.Bloque_post > .imagen {
+    width: 100%;
+    height: 380px;
+}
+
+
+.Bloque_post >  .titulo a{
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.Bloque_post >  .descripcion a{
+	font-size: 18px;
+	line-height: 18px;
+}
+
+
+
+.contenedor_post > .contenido iframe{
+	width: 90%;
+	height: 500px;
+	margin: 0 auto
+}
+
+.Seccion_3_cd_derechos > .txt {
+    width: 800px;
+}
+
+}/* 1366 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1280px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1280px) {
+
+
+.layerOscuro > .contenedor  > .btn_Secciones{
+	width: 230px;
+}
+
+.layerOscuro > .contenedor  > .contenido > .btn_descargar{
+	width: 180px;
+}
+
+.layerOscuro > .contenedor{
+	 width: 800px;
+	 padding-top: 30px;
+	 padding-bottom: 0px;
+}
+
+
+.layerOscuro > .contenedor  > .contenido > .titulo{
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.layerOscuro > .contenedor  > .contenido > .descripcion{
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.layerOscuro > .contenedor > .btn_right{
+	width: 20px;
+}
+
+.layerOscuro > .contenedor > .btn_left{
+	width: 20px;
+}
+
+.layerOscuro > .contenedor > .btn_close{
+	width: 20px;
+}
+
+
+.SubcontenedorFirma > .firma {
+    width: 180px;
+}
+
+.SubcontenedorFirma > .texto{
+	padding-left: 30px;
+}
+
+.textoComillas::before{
+  content:'';
+  background: url('../images/inicio/Comillas-1.png');  
+  position:absolute;
+  width: 35px;
+  height: 23px;  
+  background-size:35px 23px;
+  z-index:100000;  
+  left: 60px;
+   top: 60px;
+}
+
+.textoComillas::after{
+  content:'';
+  background: url('../images/inicio/Comillas-2.png');  
+  position:absolute;
+  width: 35px;
+  height: 23px;  
+  background-size:35px 23px;  
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+
+
+.textoComillas_sec::before{
+  content:'';
+  background: url('../images/inicio/Comillas-1.png');
+  background-repeat: no-repeat;  
+  position:absolute;
+  width: 35px;
+  height: 23px;  
+  background-size: 35px 23px; 
+  left: -40px;
+   top: -17px;
+}
+
+.textoComillas_sec::after{
+  content:'';
+  background: url('../images/inicio/Comillas-2.png'); 
+  background-repeat: no-repeat; 
+  position:absolute;
+  width: 35px;
+  height: 23px;  
+  background-size:35px 23px;
+  z-index:9999; 
+  margin-left: 14px;   
+  margin-top: 10px;
+}
+
+
+
+.formularioContacto > form > .BloqueA input{
+	width: 90%;
+}
+
+
+
+.formularioContacto > form > .BloqueB > textarea {
+	width: 90%;
+}
+
+
+.bx-wrapper .bx-prev {
+	left: 10%;	 
+}
+
+.bx-wrapper .bx-next {
+	right: 10%;
+}
+
+
+.Seccion_2 > .Subcontenedor > .Descripcion {
+	width: 600px;
+}
+
+}/* 1280 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1152px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1152px) {
+
+.Seccion_1 > .Logo{
+	width: 220px;
+}
+
+.Seccion_1 > .menu{
+	width: 720px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.Seccion_1 >  .textoSumate {
+    width: 420px;
+    font-size: 36px;
+}
+
+
+.contenedor_menu_movil{
+	display: none;
+}
+
+.textoTituloSecciones{
+	font-size: 50px;
+	line-height: 50px;	
+}
+
+
+.imagenTituloSecciones{
+	max-width: 700px;
+	 
+}
+
+.SubcontenedorFirma > .firma {
+    width: 160px;
+}
+
+
+.SubcontenedorFirma > .texto{
+	width: 74%;
+}
+
+.contenedor_post > .contenido iframe {
+	height: 400px;
+}
+
+
+.bx-wrapper .bx-prev {
+	left: 5%;	 
+}
+
+.bx-wrapper .bx-next {
+	right: 5%;
+}
+
+}/* 1152 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1024px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1024px) {
+
+.Seccion_1 > .Logo{
+	width: 220px;
+}
+
+.Seccion_1 > .menu{
+	display: none; 
+}
+
+
+.menu_movil{
+	display: block;
+}
+
+
+ .Seccion_2 > .Subcontenedor > .Descripcion{
+ 	font-size: 30px;
+ 	line-height: 30px;
+ }
+
+
+.Seccion_2 > .Subcontenedor{
+	width: 90%;
+}
+.Seccion_2 > .Subcontenedor > .Descripcion{
+	width: 600px
+}
+
+
+
+.Seccion_2 > .Subcontenedor >  .TituloSeccion{
+	font-size: 36px;
+}
+
+.titulo_seccion{
+	font-size: 36px !important;
+}
+
+.Seccion_2 >  .BloqueDerechos{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.Seccion_2 >  .BloqueDerechos > .Bloques{
+	width: 46%;
+	margin-bottom: 20px;
+}
+
+
+
+.Seccion_3 > .Subcontenedor{
+	width: 90%;
+}
+.Seccion_3 > .Subcontenedor > .Descripcion{
+	width: 100%;
+}
+
+
+
+.Seccion_3 > .contenedor_valores {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques{
+	 
+    width: 80%;
+    float: none;
+    margin: 0 auto !important;
+    margin-bottom: 40px !important;
+}
+
+
+.Seccion_2 > .BloquesDerechosSecciones {
+    max-width: 800px;
+}
+
+.Seccion_3_cd_derechos {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+
+.Seccion_1 > .fondo{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("../images/inicio/banner_cabecera-01.png") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+
+}
+
+
+
+.Seccion_5 > .fondo{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("../images/seccion_5/foter_solodegradado-01.png") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+.Seccion_1 > .fondo_cd_humana{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("../images/ciudad_humana/portada.png") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+
+.Seccion_1 > .fondo_cd_cultural{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("../images/ciudad_cultural/portada.png") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+.Seccion_1 > .fondo_cd_productiva{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("../images/ciudad_productiva/portada.png") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+.Seccion_1 > .fondo_cd_global{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("../images/ciudad_global/portada.png") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+.textoComillas_sec::before {
+	left: -30px;
+    top: -10px;
+}
+
+.Seccion_3_cd_derechos > .txt {
+    width: 700px;
+}
+
+
+
+}/* 1024 */
+
+
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1010px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1010px) {
+ 
+
+ /* BLOQUE TEXTO FIRMA */
+.SubcontenedorFirma > .texto{
+	width: 100%;
+	font-size: 28px;
+    line-height: 28px;
+    float: none;
+}
+
+
+.texto_normal{
+	font-size: 28px  !important; 
+	line-height: 28px  !important;
+}
+
+.SubcontenedorFirma > .firma{
+	width: 170px;
+	float: none;
+	margin: 0 auto;
+}
+
+.SubcontenedorFirma > .firma > .nombre{
+	font-size: 25px;
+}
+ 
+
+ .titulo_seccion{
+	font-size: 30px !important;
+}
+
+
+ 
+
+.Seccion_4 > .BloqueA {
+	width: 100%;
+}
+
+.Seccion_4 > .BloqueB {
+	width: 100%;
+}
+
+
+.Seccion_5 > .Logo{
+	width: 320px;
+}
+
+
+
+
+.layerOscuro > .contenedor  > .btn_Secciones{
+	width: 200px;
+}
+
+.layerOscuro > .contenedor  > .contenido > .btn_descargar{
+	width: 160px;
+}
+
+.layerOscuro > .contenedor{
+	 width: 700px;
+	 padding-top: 30px;
+	 padding-bottom: 0px;
+}
+
+
+.layerOscuro > .contenedor  > .contenido > .titulo{
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.layerOscuro > .contenedor  > .contenido > .descripcion{
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.layerOscuro > .contenedor > .btn_right{
+	width: 20px;
+}
+
+.layerOscuro > .contenedor > .btn_left{
+	width: 20px;
+}
+
+.layerOscuro > .contenedor > .btn_close{
+	width: 20px;
+}
+
+
+
+.contenedorNoticia {
+    width: 60%;
+}
+
+
+.contenedorNoticia > .imagen {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+}
+
+.contenedorNoticia > .textos {
+    width: 90%;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+}
+
+.bx-wrapper .bx-prev {
+    left: 30px;
+}
+
+.bx-wrapper .bx-next {
+    right: 30px;
+}
+
+
+}/* 1000 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 860px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:860px) {
+
+.Seccion_2 > .BloquesDerechosSecciones > .Bloques {
+    width: 22%;
+    margin-right: 20px !important;
+}
+
+.Seccion_2 >  .BloquesDerechosSecciones > .BloquesFake{
+	display: none;
+}
+
+
+.Seccion_3_cd_derechos{
+	font-size: 26px;
+	line-height: 26px;
+}
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques{
+	font-size: 28px;
+	line-height: 28px;
+}
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques > .numero{
+	width: 50px;
+
+}
+
+
+.imagenTituloSecciones{
+	max-width: 600px;
+	 
+}
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques{
+	width: 80%;
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+
+.formularioContacto > form > .BloqueA {
+	width: 70%;
+	float: none;
+	margin: 0 auto
+}
+
+.formularioContacto > form > .BloqueB {
+	width: 70%;
+	float: none;
+	margin: 0 auto
+}
+
+
+.contendorContacto{
+	height: auto;
+}
+
+.formularioContacto{
+	height: auto;
+}
+
+
+.Bloque_post {
+    max-width: 86%;
+}
+
+.Bloque_post > .imagen {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.contenedor_post > .imagen {
+    width: 100%;
+    height: auto;
+}
+
+
+.contenedor_post > .titulo {
+	font-size: 26px;
+    line-height: 26px;
+}
+
+.contenedor_post > .contenido{
+	font-size: 16px;
+    line-height: 16px;
+}
+
+.contenedor_post > .detalles{
+	font-size: 14px;
+    line-height: 14px;
+}
+
+.contenedor_post > .meta{
+	font-size: 16px;
+    line-height: 16px;
+}
+
+
+.contenedor_post > .contenido iframe {
+	width: 95%;
+	height: 340px;
+}
+
+}/* 800 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 860px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:800px) {
+
+
+.Seccion_2 > .BloquesDerechosSecciones {
+    max-width: 680px;
+}
+
+
+.Seccion_2 > .BloquesDerechosSecciones > .Bloques {
+    width: 30%;
+     
+}
+
+
+.textoTituloSecciones{
+	font-size: 40px;	
+}
+
+
+
+.layerOscuro > .contenedor  > .btn_Secciones{
+	width: 180px;
+}
+
+.layerOscuro > .contenedor  > .contenido > .titulo{
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.layerOscuro > .contenedor > .contenido > .descripcion {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+.layerOscuro > .contenedor{
+	width: 600px;
+}
+
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques{
+	font-size: 24px;
+	line-height: 24px;
+}
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques > .numero{
+	width: 40px;
+
+}
+
+
+.imagenTituloSecciones{
+	max-width: 500px;
+	 
+}
+
+.contenedorNoticia {
+    width: 73%;
+}
+
+.contenedorNoticia > .imagen {
+    height: auto;
+}
+
+
+.bx-wrapper .bx-prev {
+    left: 10px;
+}
+
+.bx-wrapper .bx-next {
+    right: 10px;
+}
+
+
+.Seccion_2 > .Subcontenedor > .Descripcion {
+    width: 80%;
+}
+
+
+}/* 800 */
+
+/* --------------------------------------------------------
+/* ---- Responsive: 768px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:768px) {
+
+.Seccion_3_cd_derechos > .txt {
+    width: 600px;
+}
+
+
+}/* 768 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 680px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:680px) {
+
+.Seccion_3_cd_derechos > .txt {
+    width: 80%;
+    text-align: left;
+}
+
+
+}/* 680 */
+
+/* --------------------------------------------------------
+/* ---- Responsive: 600px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:600px) {
+
+.Seccion_1 > .Logo {
+    width: 180px;
+}
+
+.Seccion_1 {
+    height: 600px;
+}
+
+
+.Seccion_1 >  .textoSumate {
+    width: 320px;
+    font-size: 28px;
+}
+
+
+.Secciones_portadas{
+	height: 600px !important;
+}
+
+.SubcontenedorFirma > .texto{
+	width: 100%;
+	font-size: 24px;
+    line-height: 24px;
+    float: none;
+}
+
+
+.texto_normal{
+	font-size: 24px  !important;
+	line-height: 24px  !important;
+}
+
+
+.SubcontenedorFirma{
+	padding: 50px;
+}
+
+
+.SubcontenedorFirma > .firma{
+	width: 180px;
+	float: none;
+	margin: 0 auto;
+}
+
+.SubcontenedorFirma > .firma > .nombre{
+	font-size: 22px;
+}
+
+
+
+.Seccion_2 > .BloqueDerechos {
+    width: 480px;
+    margin: 0 auto;
+    margin-bottom: 30px !important;
+}
+
+.Seccion_2 > .BloqueDerechos > .Bloques {
+    width: 46%;
+     float: left;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+    margin-right: 10px !important;
+}
+
+ .titulo_seccion{
+	font-size: 28px !important;
+}
+
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueB > .Titulo{
+	font-size: 30px;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueB > .Descripcion{
+	font-size: 24px;
+	line-height: 24px;
+}
+
+
+
+.TituloSeccion4{
+	font-size: 30px;
+}
+
+
+.DescripcionSeccion4{
+	font-size: 24px;
+    line-height: 24px;
+}
+
+.verMasBtnSeccion4{
+	font-size: 27px;
+}
+
+
+.Seccion_5 > .Subcontenedor{
+	font-size: 24px;
+}
+
+.Seccion_5 > .Subcontenedor > .Menu{
+	width: 95%;
+	font-size: 16px;
+}
+
+.Copy{
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.Seccion_2 > .BloquesDerechosSecciones {
+    max-width: 500px;
+}
+
+
+.Seccion_2 > .BloquesDerechosSecciones > .Bloques {
+    width: 46%;
+     
+}
+
+
+.layerOscuro > .contenedor{
+	width: 90%;
+}
+
+.layerOscuro > .contenedor > .btn_left{
+	left: 5px;
+}
+
+.layerOscuro > .contenedor > .btn_right{
+	right: 5px;
+}
+
+
+.textoComillas::before {
+    left: 35px;
+    top: 48px;
+}
+
+
+
+.TituloSeccionImg_Ejes{
+	width: 261px;
+	height: 26px;
+	background: url("../images/inicio/Ejes_rectores.png");
+	background-size: 261px 26px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.TituloSeccionImg_Proyecto{
+	width: 261px;
+	height: 26px;
+	background: url("../images/inicio/proyecto.png");
+	background-size: 261px 26px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+
+.TituloSeccionImg_Etapas{
+	width: 392px;
+	height: 26px;
+	background: url("../images/inicio/Etapas.png");
+	background-size: 392px 26px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.TituloSeccionImg_Noticias{
+	width: 317px;
+	height: 31px;
+	background: url("../images/inicio/ultimasNoticias.png");
+	background-size: 317px 31px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques{
+	width: 80%;
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.header_contacto {
+	margin-bottom: 30px !important;
+}
+
+
+.contenedorNoticia > .textos > .titulo {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.contenedorNoticia > .textos > .detalles {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.contenedorNoticia > .textos > .descripcion {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+
+.contenedor_post > .contenido iframe {
+	width: 100%;
+	height: 300px;
+}
+
+}/* 600 */
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 568px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:568px) {
+
+.Seccion_2 > .BloquesDerechosSecciones {
+    max-width: 400px;
+}
+
+
+.Seccion_2 > .BloquesDerechosSecciones > .Bloques {
+    width: 44%;
+     
+}
+
+.Seccion_3_cd_derechos{
+	font-size: 22px;
+	line-height: 22px;
+}
+
+
+
+.TituloSeccionImg_Etapas{
+	width: 312px;
+	height: 20px;
+	background: url("../images/inicio/Etapas.png");
+	background-size: 312px 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.TituloSeccionImg_Noticias{
+	width: 315px;
+	height: 30px;
+	background: url("../images/inicio/ultimasNoticias.png");
+	background-size: 315px 30px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.contenedor_botones{
+	width: 80%;
+	height: auto;
+}
+
+
+.contenedor_botones > .btn_fotos{
+	float: none;
+	margin: 0 auto; 
+	margin-bottom: 20px;
+}
+
+.contenedor_botones > .btn_videos{
+	float: none;
+	margin: 0 auto;
+}
+
+.Seccion_2 > .Subcontenedor > .Descripcion {
+    width: 85%;
+}
+
+} /* 568 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 480px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:480px) {
+
+.contenedorNoticia {
+    width: 90%;
+}
+
+
+.bx-wrapper .bx-prev {
+    left: 10px;
+    display: none;
+}
+
+.bx-wrapper .bx-next {
+    right: 10px;
+    display: none;
+}
+
+.contenedorNoticia > .imagen {
+    height: auto;
+}
+
+.extracto_web{
+	display: none;
+}
+.extracto_movil{
+	display: block;
+}
+
+.Seccion_2 > .Subcontenedor > .Descripcion {
+    width: 90%;
+}
+
+} /* 480 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 400px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:420px) {
+
+.Seccion_1 > .Logo {
+    width: 180px;
+}
+
+.Seccion_1 {
+    height: 600px;
+}
+
+
+
+ 
+.Seccion_1 > .textoSumate {
+    width: 280px;
+    font-size: 28px;
+}
+
+
+.contenedor_menu_movil{
+	width: 260px;
+	right: 0px;
+}
+
+.contenedor_menu_movil > a > .Bloques{
+	font-size: 18px;
+}
+
+
+.SubcontenedorFirma{
+	padding: 30px;
+}
+
+
+.SubcontenedorFirma > .texto{
+	font-size: 20px;
+    line-height: 20px;
+ 
+}
+
+
+
+.textoComillas::before{
+  content:'';
+  background: url('../images/inicio/Comillas-1.png');  
+  position:absolute;
+  width: 24px;
+  height: 16px;  
+  background-size:24px 16px;
+  z-index:100000;  
+  left: 25px;
+   top: 25px;
+}
+
+.textoComillas::after{
+  content:'';
+  background: url('../images/inicio/Comillas-2.png');  
+  position:absolute;
+  width: 24px;
+  height: 16px;  
+  background-size:24px 16px; 
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+
+.textoComillas_sec::before{
+  content:'';
+  background: url('../images/inicio/Comillas-1.png');
+  background-repeat: no-repeat;  
+  position:absolute;
+  width: 24px;
+  height: 16px;  
+  background-size: 24px 16px;
+  left: -28px;
+   top: -9px;
+}
+
+.textoComillas_sec::after{
+  content:'';
+  background: url('../images/inicio/Comillas-2.png'); 
+  background-repeat: no-repeat; 
+  position:absolute;
+  width: 24px;
+  height: 16px;   
+  background-size: 24px 16px;
+  z-index:9999; 
+  margin-left: 14px;   
+  margin-top: 10px;
+}
+
+
+
+.titulo_seccion{
+	font-size: 26px !important;
+}
+
+.texto_normal{
+	font-size: 20px  !important;
+	line-height: 20px  !important;
+}
+
+
+.SubcontenedorFirma > .firma{
+	width: 160px;
+	float: none;
+	margin: 0 auto;
+}
+
+.SubcontenedorFirma > .firma > .nombre{
+	font-size: 18px;
+}
+
+
+.Seccion_2 > .BloqueDerechos {
+    width: 320px;
+    margin: 0 auto;
+}
+
+
+.Seccion_2 > .BloqueDerechos > .Bloques {
+    width: 46%;
+     float: left;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+    margin-right: 10px !important;
+}
+ 
+
+
+.LeerMasBtn {
+    max-width: 180px;
+}
+
+
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueB > .Titulo{
+	font-size: 25px;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueB > .Descripcion{
+	font-size: 20px;
+	line-height: 20px;
+}
+
+
+
+.Seccion_5 > .Logo {
+    width: 260px;
+}
+
+.Seccion_5 > .Subcontenedor {
+    font-size: 20px;
+}
+
+
+ 
+
+.Seccion_2 > .BloquesDerechosSecciones {
+    max-width: 320px;
+}
+
+
+.Seccion_2 > .BloquesDerechosSecciones > .Bloques {
+    width: 30%;
+    margin-right: 10px !important;
+     
+}
+
+.textoTituloSecciones{
+	font-size: 30px;
+    line-height: 30px;	
+}
+
+
+
+.imagenTituloSecciones {
+    max-width: 300px;
+}
+
+
+.DescripcionBloquesTxt {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.contenedor_post > .contenido iframe {
+	width: 100%;
+	height: 260px;
+}
+
+
+}/* 400 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 360px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:380px) {
+	.Seccion_2 > .Subcontenedor > .Descripcion {
+	    width: 76%;
+	}
+
+}/* 380 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 360px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:360px) {
+
+.Seccion_1 > .Logo {
+    width: 150px;
+}
+
+.Seccion_1 {
+    height: 600px;
+}
+
+ 
+.Seccion_1 > .textoSumate {
+    width: 250px;
+    font-size: 28px;
+}
+
+
+.Seccion_2 > .BloqueDerechos {
+    width: 270px;
+    margin: 0 auto;
+}
+
+
+
+.titulo_seccion{
+	font-size: 24px !important;
+}
+
+
+.Seccion_5 > .Subcontenedor > .Menu{
+	height: 94px;
+}
+
+.Seccion_5 > .Subcontenedor > .Menu > .Bloques{
+	    width: 50%;
+	    height: auto;
+	    margin-bottom: 10px;
+}
+
+
+.Seccion_2 > .BloquesDerechosSecciones {
+    max-width: 300px;
+}
+
+
+
+}/* 360 */
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 320px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:320px) {
+
+.SubcontenedorFirma > .texto {
+    padding-left: 10px;
+}
+
+.textoComillas::before {
+  left: 10px;
+  top: 25px;
+}
+
+
+.contenedor_post > .contenido iframe {
+	width: 100%;
+	height: 200px;
+}
+
+.Seccion_2 > .Subcontenedor > .Descripcion {
+    width: 85%;
+}
+
+}/* 320 */

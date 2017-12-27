@@ -1,0 +1,2208 @@
+/*
+	Theme Name: La Ciudad de los Derechos
+	Theme URI: http://laciudaddelosderechos.com
+	Description: Tema de wordpress deseñado de corazón 
+	Version: 1.4.3
+	Author: Deuteros D Marck (@torbmx)
+	Author URI: http://laciudaddelosderechos.com
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+
+/* --------------------------------------------------------
+/* ---- FUENTES 
+-------------------------------------------------------- */
+
+@font-face {
+    font-family: "Arquitecta-Normal";
+    src: url(fuentes/Arquitecta.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Arquitecta-Heavy";
+    src: url(fuentes/ArquitectaHeavy.otf) format("truetype");
+}
+
+
+@font-face {
+    font-family: "Arquitecta-Bold";
+    src: url(fuentes/ArquitectaBold.otf) format("truetype");
+}
+
+
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+        white-space: nowrap;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+/* html element 62.5% font-size for REM use */
+html {
+	font-size:62.5%;
+}
+
+
+body {
+	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#444;
+	 background: #FFF;
+}
+
+
+
+ 
+
+ .LeerMasBtn {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+ .LeerMasBtn img {
+ 	width: 100%;
+    height: auto;
+}
+
+
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+.main{
+	max-width: 2200px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+	background: #FFF;
+}
+
+
+
+
+/*-------------------------------------------------------*\
+ 	SECCIÓN 1
+\*-------------------------------------------------------*/
+
+
+.Seccion_1{
+	width: 100%;
+	height: 900px;
+ 	margin-bottom: 0px; 
+ 	position: relative;
+ 	overflow: hidden;
+}
+
+.Seccion_1 > .fondo{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("images/inicio/banner_cabecera-01.png") no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+.Seccion_1 > .fondo_cd_humana{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("images/ciudad_humana/portada.png") no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+.Seccion_1 > .fondo_cd_cultural{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("images/ciudad_cultural/portada.png") no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+.Seccion_1 > .fondo_cd_productiva{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("images/ciudad_productiva/portada.png") no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+.Seccion_1 > .fondo_cd_global{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("images/ciudad_global/portada.png") no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+
+.Seccion_1 > .Logo{
+	width: 384px;
+	height: auto;
+	position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+
+
+
+.Seccion_1 > .Logo img{
+	width: 100%;
+	height: auto;
+}
+
+
+.Seccion_1 > .menu{
+	width: 1200px;
+	height: 50px;
+	position: absolute;
+	right: 40px;
+	top: 40px;
+	font-family: "Arquitecta-Normal";
+	font-size: 24px;
+	line-height: 23px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.menu_on{
+	color: #7D2026 !important;	
+}
+
+.menu_on a{
+	color: #7D2026 !important;	
+}
+
+.menu_on_2{
+	color: #222 !important;	
+}
+
+.menu_on_2 a{
+	color: #222 !important;	
+}
+
+.Seccion_1 > .menu > a > .Bloques {
+	width: 16.66%;
+	height: auto;
+	float: left;
+	color: #FFF;
+	padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.Seccion_1 > .menu > a > .Bloques {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.Seccion_1 > .menu > a > .Bloques:hover{
+ background: #7D2026;
+ color: #FFF !important;
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+
+  border-radius: 25px;
+   border: 1px solid #7D2026;
+}
+
+
+.Seccion_1 > .textoSumate{
+	max-width: 600px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-top: 0px;
+    margin: 0 auto;
+    z-index: 1;
+    font-family: "Arquitecta-Normal";
+	font-size: 50px;
+	color: #FFF;
+	text-align: center;
+}
+
+.Seccion_1 > .textoSumate a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.Secciones_portadas{
+	height: 1200px !important;
+	margin-bottom: 120px !important;
+}
+
+
+.textoTituloSecciones{
+	max-width: 800px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-top: 0px;
+    margin: 0 auto;
+    z-index: 1;
+    font-family: "Arquitecta-Bold";
+	font-size: 80px;
+	line-height: 80px;
+	color: #FFF;
+	text-align: center;
+}
+
+
+.imagenTituloSecciones{
+	max-width: 1140px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-top: 0px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.imagenTituloSecciones img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+.Seccion_1 > .textoSumate img{
+	width: 100%;
+	height: auto;
+} 
+
+
+.SubcontenedorFirma{
+	width: 100%;
+	height: auto;
+	background: #E2E2E2;
+	padding: 70px;
+	margin-bottom: 60px;
+	position: relative;
+}
+
+
+.SubcontenedorFirma > .texto {
+	width: 82%;
+	height: auto;
+	float: left;
+	font-family:"Arquitecta-Normal";
+	font-size: 32px;
+	line-height: 36px;
+	color: #777777;
+	text-align: justify;
+	margin-bottom: 60px;
+	padding-left: 100px;
+}
+
+.textoNombre{
+	position: absolute;
+	margin-top: 22px;
+}
+
+.textoComillas::before{
+  content:'';
+  background: url('images/inicio/Comillas-1.png');
+  background-repeat: no-repeat;  
+  position:absolute;
+  width: 72px;
+  height: 49px;  
+  background-size:72px 49px;
+  left: 60px;
+   top: 60px;
+}
+
+.textoComillas::after{
+  content:'';
+  background: url('images/inicio/Comillas-2.png'); 
+  background-repeat: no-repeat; 
+  position:absolute;
+  width: 72px;
+  height: 49px;  
+  background-size:72px 49px;
+  margin-left: 14px;   
+}
+
+.textoComillas_sec::before{
+  content:'';
+  background: url('images/inicio/Comillas-1.png');
+  background-repeat: no-repeat;  
+  position:absolute;
+  width: 72px;
+  height: 49px;  
+  background-size:72px 49px;  
+  left: -70px;
+   top: -17px;
+}
+
+.textoComillas_sec::after{
+  content:'';
+  background: url('images/inicio/Comillas-2.png'); 
+  background-repeat: no-repeat; 
+  position:absolute;
+  width: 72px;
+  height: 49px;  
+  background-size:72px 49px;
+  margin-left: 14px;   
+}
+
+.texto_normal{
+	font-size: 30px !important;
+	line-height: 30px !important;
+}
+
+.titulo_seccion{
+	font-size: 46px !important;
+    text-align: center !important;
+    color: #7D2026 !important;
+}
+
+.SubcontenedorFirma > .firma {
+	width: 230px;
+	height: auto;
+	float: right;
+	position: relative; 
+}
+
+.SubcontenedorFirma > .firma > .nombre {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 20%;
+	font-family:"Arquitecta-Normal";
+	font-size: 46px;
+	line-height: 46px;
+	color: #777777;
+	text-align: center;
+	display: none;
+}
+
+
+
+.SubcontenedorFirma > .firma img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/*-------------------------------------------------------*\
+ 	SECCIÓN 2
+\*-------------------------------------------------------*/
+
+
+.Seccion_2{
+	width: 100%;
+	height: auto;
+	background: #FFF;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.Seccion_2 > .Subcontenedor{
+	width: 100%;
+	height: auto;
+	background: #FFF;
+	margin: 0 auto; 
+}
+
+.Seccion_2 > .Subcontenedor > .BloqueDeTitulos{
+	width: 400px;
+	height: 100px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.Seccion_2 > .Subcontenedor > .BloqueDeTitulos > .Texto{
+	width: 180px;
+	height: auto;
+	background: #7D2026;
+	border-radius: 25px;
+    border: 1px solid #7D2026;
+    font-family: "Arquitecta-Heavy";
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    left: 0%;
+     top: 34%;
+   
+} 
+
+
+.Seccion_2 > .Subcontenedor > .BloqueDeTitulos > .Icono {
+	width: 80px;
+	height: 80px;
+	background: url("images/seccion_2/icono_2-01.png");
+	background-size: 80px 80px;
+	position: absolute;
+	right:0%;
+    top: 8%;
+    
+}
+
+
+.Seccion_2 > .Subcontenedor >  .TituloSeccion{
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Bold";
+	font-size: 46px;
+    text-align: center;
+    color: #7D2026;
+    margin-bottom: 20px;
+}
+
+.TituloSeccionImg_Ejes{
+	width: 553px;
+	height: 50px;
+	background: url("images/inicio/Ejes_rectores.png");
+	background-size: 553px 50px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.TituloSeccionImg_Etapas{
+	width: 771px;
+	height: 50px;
+	background: url("images/inicio/Etapas.png");
+	background-size: 771px 50px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.TituloSeccionImg_Noticias{
+	width: 607px;
+	height: 59px;
+	background: url("images/inicio/ultimasNoticias.png");
+	background-size: 607px 59px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+.TituloSeccionImg_Proyecto{
+	width: 553px;
+	height: 50px;
+	background: url("images/inicio/proyecto.png");
+	background-size: 553px 50px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+
+
+.Seccion_2 > .Subcontenedor > .Subitulo{
+	width: 500px;
+	height: auto;
+	font-family: "Arquitecta-Heavy";
+	font-size: 34px;
+	line-height: 34px;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.Seccion_2 > .Subcontenedor > .Descripcion {
+	width: 900px;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 40px;
+	line-height: 40px;
+	color: #777;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 80px;
+    position: relative;
+	
+}
+
+
+/*-------------------------------------------------------*\
+ 	SECCIÓN 2 : BloquesDerechos;
+\*-------------------------------------------------------*/
+
+.Seccion_2 >  .BloqueDerechos{
+	max-width: 1800px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 40px;
+
+}
+
+.Seccion_2 >  .BloqueDerechos > .Bloques{
+	width: 23.5%;
+	height: auto;
+	margin-right: 20px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+
+.Seccion_2 >  .BloqueDerechos > .Bloques img{
+	width: 100%;
+	height: auto;
+}
+
+.Seccion_2 >  .BloqueDerechos > .Bloques:hover{
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+}
+
+.Bloque_secciones_on{
+	position: absolute;
+	display: none;	
+}
+
+
+ 
+
+
+/*-------------------------------------------------------*\
+ 	SECCIÓN 2 : BloquesDerechosSecciones;
+\*-------------------------------------------------------*/
+
+
+
+
+
+.Seccion_2 >  .BloquesDerechosSecciones{
+	max-width: 1800px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 100px;
+
+}
+
+.Seccion_2 >  .BloquesDerechosSecciones > .Bloques{
+	width: 19%;
+	height: auto;
+	background: #FFF;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+
+.Seccion_2 >  .BloquesDerechosSecciones > .BloquesFake{
+	width: 30%;
+	height: 100px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+
+.Seccion_2 >  .BloquesDerechosSecciones > .Bloques img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+.Seccion_2 >  .BloquesDerechosSecciones > .Bloques > .textos{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.Seccion_2 >  .BloqueDerechos > .Bloques > .textos > .txt_C{
+	width: 100%;
+	font-family: "Arquitecta-Normal";
+	font-size: 34px;
+	line-height: 28px;
+	color: #FFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Seccion_2 >  .BloqueDerechos > .Bloques > .textos > .txt_G{
+	width: 100%;
+	font-family: "Arquitecta-Heavy";
+	font-size:80px;
+	line-height: 55px;
+	color: #FFF;
+    text-align: center;
+}
+
+
+.txt_left_C{
+	width: 100%;
+	font-family: "Arquitecta-Normal";
+	font-size: 34px;
+	line-height: 28px;
+	color: #FFF;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+.txt_left_1{
+	width: 100%;
+	font-family: "Arquitecta-Heavy";
+	font-size:70px !important;
+	line-height: 55px;
+	color: #FFF;
+	margin-left: 10px;
+    text-align: left !important;
+}
+
+
+
+.Bloques_NM{
+	margin-right: 0px !important;
+}
+
+
+.contenedor_botones{
+	width: 500px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.contenedor_botones > .btn_fotos{
+	width: 200px;
+	height: auto;
+	float: left;
+}
+
+.contenedor_botones > .btn_fotos img {
+	width: 100%;
+	height: auto;
+}
+
+.contenedor_botones > .btn_videos{
+	width: 200px;
+	height: auto;
+	float: right;
+}
+
+.contenedor_botones > .btn_videos img{
+	width: 100%;
+	height: auto;
+}
+
+/*-------------------------------------------------------*\
+ 	SECCIÓN 2 : LAYER SECCIONES POPUP
+\*-------------------------------------------------------*/
+
+.layerOscuro{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-top: 0px;
+    margin: 0 auto;
+    z-index: 1;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+
+.layerOscuro > .contenedor{
+	width: 1100px;
+	height: auto;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-top: 0px;
+    margin: 0 auto;
+    z-index: 1;
+    background: #FFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.layerOscuro > .contenedor > .btn_left{
+	width: 25px;
+	height: auto;
+	position: absolute;
+	left: 20px;
+	top: 42%;
+	cursor: pointer;
+}
+
+.layerOscuro > .contenedor > .btn_left img{
+	width: 100%;
+	height: auto;
+}
+
+.layerOscuro > .contenedor > .btn_right{
+	width: 25px;
+	height: auto;
+	position: absolute;
+	right: 20px;
+	top: 42%;
+	cursor: pointer;
+
+}
+
+
+.layerOscuro > .contenedor > .btn_right img{
+	width: 100%;
+	height: auto;
+}
+
+
+.layerOscuro > .contenedor > .btn_close{
+	width: 32px;
+	height: auto;
+	position: absolute;
+	right: 20px;
+	top: 40px;
+	cursor: pointer;
+
+}
+
+.layerOscuro > .contenedor > .btn_close img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+.layerOscuro > .contenedor  > .btn_Secciones{
+	width: 300px;
+	height: auto;
+	margin:  0 auto;
+	margin-bottom: 40px;
+	cursor: pointer;
+
+}
+
+.layerOscuro > .contenedor  > .btn_Secciones img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+.layerOscuro > .contenedor  > .contenido{
+	width: 80%;
+	height: auto; 
+	margin: 0 auto;
+	margin-bottom: 50px;
+	display: none;
+}
+
+.layerOscuro > .contenedor  > .contenido > .titulo {
+	width: 100%;
+    height: auto;
+    font-family: "Arquitecta-Normal";
+    font-size: 35px;
+    text-align: center;
+    color: #7D2026;
+    margin-bottom: 20px;
+}
+
+.layerOscuro > .contenedor  > .contenido > .descripcion {
+
+	width: 100%;
+    height: auto;
+    font-family: "Arquitecta-Normal";
+    font-size: 30px;
+    line-height: 30px;
+    color: #777;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.layerOscuro > .contenedor  > .contenido > .btn_descargar{
+	width: 220px;
+	height: auto;
+	margin:  0 auto;
+	margin-top: 20px;
+	cursor: pointer;
+
+}
+
+.layerOscuro > .contenedor  > .contenido > .btn_descargar img {
+	width: 100%;
+	height: auto;
+}
+
+/*-------------------------------------------------------*\
+ 	SECCIÓN 2 : BloquesPropuestas
+\*-------------------------------------------------------*/
+
+
+.Seccion_2 > .BloquesPropuestas{
+	width: 1000px;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 22px;
+	line-height: 22px;
+	color: #000;
+    text-align: justify;
+    margin:0 auto;
+    margin-bottom: 40px;
+    display: none;
+}
+
+
+.Seccion_2 > .BloquesPropuestas > .BloquesTextosPropuestas {
+	width: 100%;
+	height: auto;
+}
+
+.Seccion_2 > .BloquesPropuestas > .BloquesTextosPropuestas p {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+
+.propuesta_1, .propuesta_2, .propuesta_3, .propuesta_4 {
+	display: none;
+} 
+
+
+
+.Seccion_3_cd_derechos{
+	width: 100%;
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: #E6E6E6;
+	 font-family: "Arquitecta-Normal";
+    font-size: 40px;
+    line-height: 40px;
+    color: #777777;
+}
+
+.Seccion_3_cd_derechos > .txt {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+
+/*-------------------------------------------------------*\
+ 	SECCIÓN 3
+\*-------------------------------------------------------*/
+
+
+.Seccion_3{
+	width: 100%;
+	height: auto;
+	background: #FFF;
+	position: relative;
+	margin-bottom: 120px;
+}
+
+.Seccion_3 > .Subcontenedor{
+	width: 100%;
+	height: auto;
+	background: #FFF;
+	margin: 0 auto; 
+}
+
+.Seccion_3 > .Subcontenedor > .BloqueDeTitulos{
+	width: 400px;
+	height: 100px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.Seccion_3 > .Subcontenedor > .BloqueDeTitulos > .Texto{
+	width: 180px;
+	height: auto;
+	background: #7D2026;
+	border-radius: 25px;
+    border: 1px solid #7D2026;
+    font-family: "Arquitecta-Heavy";
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    left: 0%;
+     top: 34%;
+   
+} 
+
+
+.Seccion_3 > .Subcontenedor > .BloqueDeTitulos > .Icono {
+	width: 80px;
+	height: 80px;
+	background: url("images/seccion_2/icono_2-01.png");
+	background-size: 80px 80px;
+	position: absolute;
+	right:0%;
+    top: 8%;
+    
+}
+
+
+.Seccion_3 > .Subcontenedor >  .TituloSeccion{
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Bold";
+	font-size: 28px;
+    text-align: center;
+    color: #7D2026;
+    margin-bottom: 20px;
+}
+
+
+.Seccion_3 > .Subcontenedor > .Subitulo{
+	width: 500px;
+	height: auto;
+	font-family: "Arquitecta-Heavy";
+	font-size: 34px;
+	line-height: 34px;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+
+
+.Seccion_3 > .Subcontenedor > .Descripcion {
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 40px;
+	line-height: 40px;
+	color: #777;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 80px;
+	
+}
+
+
+.Seccion_3 > .contenedor_valores{
+	max-width: 1400px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+
+
+ 
+
+.Seccion_3 >  .contenedor_valores > .Bloques{
+	width: 48%;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 80px;
+}
+
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueA {
+	width: 20%;
+	height: auto;
+	float: left;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueA img{
+	width: 75%;
+	margin-top: 30px;
+	height: auto;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueB {
+	width: 80%;
+	height: auto;
+	float: right;
+}
+
+
+
+.Seccion_3 >  .contenedor_valores > .Bloques >  .Icono_1{
+	width: 50px;
+	height: 50px;
+	background:url("images/seccion_3/icono_1-01.png");
+	background-size: 50px 50px;
+	margin-bottom: 10px;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .Icono_2{
+	width: 50px;
+	height: 50px;
+	background:url("images/seccion_3/icono_2-01.png");
+	background-size: 50px 50px;
+	margin-bottom: 10px;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .Icono_3{
+	width: 50px;
+	height: 50px;
+	background:url("images/seccion_3/icono_3-01.png");
+	background-size: 50px 50px;
+	margin-bottom: 10px;
+}
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .Icono_4{
+	width: 50px;
+	height: 50px;
+	background:url("images/seccion_3/icono_4-01.png");
+	background-size: 50px 50px;
+	margin-bottom: 10px;
+}
+
+
+ 
+ .Seccion_3 >  .contenedor_valores > .Bloques > .BloqueB > .Titulo{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	font-family: "Arquitecta-Normal";
+	font-size: 40px;
+	color: #7D2026;
+	margin-bottom: 10px;
+}
+
+
+.Seccion_3 >  .contenedor_valores > .Bloques > .BloqueB > .Descripcion{
+	width: 80%;
+	height: auto;
+	text-align: justify;
+	font-family: "Arquitecta-Normal";
+	font-size: 28px;
+	line-height: 28px;
+	color: #777;
+}
+
+
+
+ 
+.Seccion_3 > .contenedor_Etapas{
+	max-width: 1400px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.Seccion_3 > .contenedor_Etapas > .Bloques{
+	width: 33.33%;
+	height: auto;
+	float: left;
+	font-family: "Arquitecta-Heavy";
+	font-size: 40px;
+	text-align: center;
+	color: #777777;
+
+}
+
+
+.Seccion_3 > .contenedor_Etapas > .Bloques > .numero{
+	width: 80px;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom:10px;
+}
+
+.Seccion_3 > .contenedor_Etapas > .Bloques > .Texto{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+.Seccion_3 > .contenedor_Etapas > .Bloques > .numero img{
+	width: 100%;
+	height: auto;
+}
+
+
+.DescripcionBloquesTxt{
+	width: 90%;
+	text-align: justify;
+    font-family: "Arquitecta-Normal";
+    font-size: 28px;
+    line-height: 28px;
+    color: #777;
+    margin: 0 auto;
+}
+
+
+
+
+  /*-------------------------------------------------------*\
+ 	SECCIÓN 4
+\*-------------------------------------------------------*/
+
+
+.Seccion_4{
+	width: 100%;
+	height: auto;
+	background: #FFF;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+
+.Seccion_4 > .BloqueA {
+	width: 50%;
+	height: 600px;
+	background: #E6E6E6;
+	float: left;
+	position: relative;
+} 
+
+.Seccion_4 > .BloqueA > .Subcontenedor {
+	width: 80%;
+	height: auto;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+.TituloSeccion4 {
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Bold";
+	font-size: 40px;
+	color: #777;
+	margin-bottom: 10px;
+}
+
+
+
+ .DescripcionSeccion4 {
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 30px;
+	line-height: 30px;
+	color: #777;
+	margin-bottom: 10px;
+}
+
+  .DescripcionSeccion4 p {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+
+.verMasBtnSeccion4{
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.verMasBtnSeccion4:hover{
+	color: #7D2026;
+}
+
+
+.Seccion_4 > .BloqueB {
+	width: 50%;
+	height: 600px;
+	background: #F7F8F9;
+	float: left;
+	position: relative;
+} 
+
+
+.Seccion_4 > .BloqueB > .Subcontenedor {
+	width: 80%;
+	height: auto;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+.Seccion_4 > .BloqueB > .Subcontenedor > .Titulo {
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 40px;
+	color: #777;
+	margin-bottom: 10px;
+}
+
+
+
+.Seccion_4 > .BloqueB > .Subcontenedor > .Descripcion {
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 30px;
+	line-height: 30px;
+	color: #777;
+	margin-bottom: 10px;
+}
+
+.Seccion_4 > .BloqueB > .Subcontenedor > .Descripcion p {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+
+.Seccion_4 > .BloqueB > .Subcontenedor > .verMasBtn{
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.Seccion_4 > .BloqueB > .Subcontenedor > .verMasBtn:hover{
+	color: #7D2026;
+}
+
+
+
+/*-------------------------------------------------------*\
+ 	SECCIÓN 5
+\*-------------------------------------------------------*/
+
+
+.Seccion_5{
+	width: 100%;
+	height: 500px; 
+	background: #000;
+ 	 margin-bottom: 0px; 
+ 	 position: relative;
+}
+
+.Seccion_5 > .fondo{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("images/seccion_5/foter_solodegradado-01.png") no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+
+
+.Seccion_5 > .Logo{
+	width: 384px;
+	height: auto;
+	position: relative;
+    top: 40px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.Seccion_5 > .Logo img{
+	width: 100%;
+	height: auto;
+}
+
+.Seccion_5 > .Subcontenedor{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: "Arquitecta-Normal";
+	font-size: 30px;
+	color: #E6E6E6;
+	position: relative;
+}
+
+.Seccion_5 > .Subcontenedor > .Titulo {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.Copy{
+	width: 62%;
+	height: auto;
+	text-align: right;
+	font-family: "Arquitecta-Normal";
+	font-size: 10px;
+	color: #E6E6E6;
+}
+
+.Seccion_5 > .Subcontenedor > .Menu{
+	width: 70%;
+	height: 70px;
+	margin: 0 auto;
+	font-family: "Arquitecta-Normal";
+	font-size: 22px; 
+	line-height: 22px;
+	text-align: center;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 60px;
+
+}
+
+.Seccion_5 > .Subcontenedor > .Menu > .Bloques {
+	width: 25%;
+	height: auto;
+	float: left;
+	position: relative;
+	top: 20px;
+	cursor: pointer;
+} 
+
+.Seccion_5 > .Subcontenedor > .Menu > .Bloques:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
+.Seccion_5 > .Subcontenedor > .Menu > .Bloques a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+.Seccion_5 > .Subcontenedor > .Menu > .Bloques a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
+.menu_movil{
+	display: none;
+	width: 24px;
+	height: 24px;
+	background: url("images/inicio/menu_movil.png");
+	background-size: 24px 24px;
+	position: absolute;
+	right: 40px;
+}
+
+
+.contenedor_menu_movil{
+	display: none;
+	width: 280px;
+    height: auto;
+    background: rgba(0,0,0,0.9);
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    z-index: 9999;
+    border-radius: 3px;
+}
+
+.contenedor_menu_movil > a {
+	text-decoration: none;
+}
+.contenedor_menu_movil > a > .Bloques{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #FFF;
+	font-family: "Arquitecta-Normal";
+	font-size: 20px; 
+	color: #FFF;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.contenedor_menu_movil > a > .Bloques:hover{
+ background: #7D2026;
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+}
+
+.Seccion_5 > .Subcontenedor > .contenedorRedes {
+	width: 250px;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+.Seccion_5 > .Subcontenedor > .contenedorRedes > a > .facebook {
+	width: 50px;
+	height: 50px;
+	background: url("images/seccion_5/Facebook.png");
+	background-size: 50px 50px;
+	margin-right: 15px;
+	float: left;
+}
+
+.Seccion_5 > .Subcontenedor > .contenedorRedes > a > .twitter {
+	width: 50px;
+	height: 50px;
+	background: url("images/seccion_5/Twitter.png");
+	background-size: 50px 50px;
+	margin-right: 15px;
+	float: left;
+}
+
+
+.Seccion_5 > .Subcontenedor > .contenedorRedes > a > .youtube{
+	width: 50px;
+	height: 50px;
+	background: url("images/seccion_5/Youtube.png");
+	background-size: 50px 50px;
+	margin-right: 15px;
+	float: left;
+}
+
+.Seccion_5 > .Subcontenedor > .contenedorRedes > a > .instagram {
+	width: 50px;
+	height: 50px;
+	background: url("images/seccion_5/Instagram.png");
+	background-size: 50px 50px;
+	float: left;
+}
+
+/*-------------------------------------------------------*\
+ 	CONTACTO
+\*-------------------------------------------------------*/
+
+.header_contacto{
+	height: 220px !important;
+	margin-bottom: 80px !important;
+}
+
+
+.Seccion_Contacto{
+	max-width: 1200px;
+	height: auto;
+	background: #FFF;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+.contendorContacto{
+	max-width: 85%;
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.contendorContacto > .titulo {
+	width: 100%;
+	height: auto;
+	font-family: "Arquitecta-Normal";
+    font-size: 28px;
+    line-height: 23px;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.formularioContacto{
+	width: 100%;
+	height: 300px;
+	font-family: "Arquitecta-Normal";
+    font-size: 20px;
+    line-height: 20px;
+    color: #777777; 
+}
+
+.formularioContacto > form > .BloqueA{
+	width: 50%;
+	height: auto;
+	float: left;
+} 
+
+.formularioContacto > form > .BloqueA input{
+	width: 80%;
+	height: 30px;
+	border: solid 1px #919191;
+	border-radius: 10px;
+}	
+
+
+ 
+.textosContacto{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+} 
+
+.formularioContacto > form > .BloqueB{
+	width: 40%;
+	height: auto;
+	float: right;
+} 
+
+.formularioContacto > form > .BloqueB > textarea {
+	width: 80%;
+	height: 200px;
+	border: solid 1px #919191;
+	border-radius: 10px;
+}
+
+.formularioContacto > form > .BloqueB > .countdown{
+	width: 80%;
+	height: auto;
+	margin-top: 10px;
+	text-align: right;
+}
+
+
+.EnviarContacto{
+	width: 100px !important;
+	height: 30px !important;
+	background: #7D2026 !important;
+	color: #FFF !important;
+	border: 1px solid #7D2026 !important;
+	border-radius: 5px !important; 
+	margin-top: 20px;
+}
+
+form label.error {
+color: #D3584E;
+font-family: "Arquitecta-Normal";
+font-size: 13px;
+line-height: 13px;
+}
+
+
+.contenedorMensajeCorreo{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+
+.contenedorMensajeCorreo > .msj{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height:auto;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #FFF; 
+    font-family: "Arquitecta-Normal";
+	font-size: 20px;
+	line-height: 20px;
+	color: #777;
+	text-align: center;
+	 padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+/*-------------------------------------------------------*\
+ 	BLOG
+\*-------------------------------------------------------*/
+
+.Seccion_Blog{
+	 max-width: 1820px;
+	 height: auto;
+	 margin: 0 auto;
+	 padding-bottom: 30px;
+}
+
+
+.Bloque_post{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background: #7D2026;
+	-webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+}
+
+.Bloque_post:hover{
+	background: #000;
+	-webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+}
+
+.Bloque_post > .imagen{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.Bloque_post > .imagen img {
+	width: 100%;
+	height: auto;
+}
+
+
+.Bloque_post >  .titulo{
+	width: 98%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.Bloque_post >  .titulo a{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	text-decoration: none;
+	font-family: "Arquitecta-Heavy";
+	color: #FFF;
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	
+}
+ 
+
+
+
+.Bloque_post >  .descripcion{
+	width: 98%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.Bloque_post >  .descripcion a{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	text-decoration: none;
+	font-family: "Arquitecta-Normal";
+	font-size: 24px;
+	line-height: 24px;
+	color: #FFF;
+}
+
+
+.custom-pagination{
+	max-width: 1200px;
+	height: 40px;
+	font-family: "Arquitecta-Normal";
+	font-size: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+}
+
+
+
+.custom-pagination a{
+	font-family: "Arquitecta-Normal";
+	font-size: 24px;
+	line-height: 24px;
+	color:  #777;
+	text-decoration: none;
+}
+
+.custom-pagination a:hover{
+	color: #7D2026;
+}
+
+
+/*-------------------------------------------------------*\
+ 	POST
+\*-------------------------------------------------------*/
+
+.contenedor_post{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.contenedor_post > .imagen {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.contenedor_post > .imagen img {
+	width: 100%;
+	height: auto;
+}
+
+.contenedor_post > .titulo{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-family: "Arquitecta-Heavy";
+	color: #777;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+
+.titulo_meta{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-family: "Arquitecta-Heavy";
+	color: #777;
+	font-size: 34px;
+	line-height: 34px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+.contenedor_post > .detalles{
+	width: 100%;
+	font-family: "Arquitecta-Normal";
+	color: #777;
+	font-size: 16px;
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+
+.contenedor_post > .detalles a{
+	color: #777;
+	text-decoration: none;
+}
+
+.contenedor_post > .detalles a:hover{
+	color: #7D2026;
+}
+
+
+.contenedor_post > .contenido{
+	width: 100%;
+	font-family: "Arquitecta-Normal";
+	color: #777;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.contenedor_post > .contenido img{
+	width: 76%;
+	height: auto;
+}
+
+.contenedor_post > .contenido a {
+	color: #7D2026;
+	text-decoration: none;
+}
+
+
+.contenedor_post > .contenido a:hover {
+	font-weight: 600;
+}
+
+.contenedor_post > .meta {
+	width: 100%;
+	font-family: "Arquitecta-Normal";
+	color: #777;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.contenedor_post > .meta a {
+	color: #7D2026;
+	text-decoration: none;
+}
+¢
+
+.contenedor_post > .meta a:hover {
+	font-weight: 600;
+}
+
+
+.contenedor_post > .contenido iframe{
+	width: 100%;
+	height: 600px;
+	margin: 0 auto
+}
+
+ 
+
+
+/*-------------------------------------------------------*\
+ 	SLIDER NOTICIAS
+\*-------------------------------------------------------*/
+
+.contenedor_noticias{
+	width: 100%;
+	height: auto;
+	background:#FFF;
+	margin: 0 auto
+}
+
+.sliderSeccion{
+	width: 100%;
+	height: auto;
+	margin: 0 auto; 
+}
+
+.BloqueSlider{
+	width: 100%;
+	height: auto;
+	background: #E1E1E1;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contenedorNoticia{
+	width: 680px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+
+	-webkit-box-shadow: 0px 0px 26px -5px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 26px -5px rgba(0,0,0,1);
+box-shadow: 0px 0px 26px -5px rgba(0,0,0,1);
+}
+
+.contenedorNoticia > .imagen{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+  
+}
+
+.contenedorNoticia > .imagen img {
+	width: 100%;
+	height: auto;
+}
+
+.contenedorNoticia > .textos{
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.contenedorNoticia > .textos > .titulo {
+	width: 100%;
+    font-family: "Arquitecta-Heavy";
+    color: #7D2026;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contenedorNoticia > .textos > .titulo a {
+	color: #7D2026;
+	text-decoration: none;
+}
+
+
+.contenedorNoticia > .textos > .detalles{
+	width: 100%;
+	font-family: "Arquitecta-Normal";
+	color: #777;
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 10px;
+} 
+
+.contenedorNoticia > .textos > .detalles a {
+	color: #777;
+	text-decoration: none;
+}
+
+.contenedorNoticia > .textos > .descripcion {
+	width: 98%;
+	font-family: "Arquitecta-Normal";
+	color: #777;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.contenedorNoticia > .textos > .descripcion a {
+	color: #777;
+	text-decoration: none;
+}
+
+.txt_slider_desc{
+	margin-bottom: 10px;
+}
+
+
+.extracto_movil{
+	display: none;
+}
+
+
+ 
+
+/*------------------------------------*\
+    404 NOT FOUND
+\*------------------------------------*/
+
+.C404{
+	max-width: 340px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-top: 0px;
+    margin: 0 auto;
+    z-index: 1;
+    font-family: "Arquitecta-Normal";
+	font-size: 16px;
+	line-height: 16px;
+	color: #FFF;
+	text-align: center;
+	z-index: 99999;
+	text-transform: uppercase;
+}
+
+.C404 a{
+	color: #7D2026;
+	font-family: "Arquitecta-Bold";
+}
+
+.C404 img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+
+.main404{
+	max-width: 2200px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0 auto;
+	background: #383838;
+}
+
+.fondo_footer404{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	background: url("images/inicio/banner_cabecera-01.png")  center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+
+ 	 
+ 	 -webkit-animation: animate_background 16s linear 0s infinite;
+    -moz-animation: animate_background 16s linear 0s infinite;
+    -o-animation: animate_background 16s linear 0s infinite;
+    animation: animate_background 16s linear 0s infinite;
+}
+
